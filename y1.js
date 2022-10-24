@@ -1,5 +1,4 @@
-let item=document.querySelectorAll("li");
-item[1].style.color="green"
-for(i=0; i<item.length; i+=2){
-    item[i].style.backgroundColor="green";
-}
+var itemlist=document.querySelector('#items');
+console.log(itemlist.parentNode);
+itemlist.parentNode.style.backgroundColor="yellow";
+itemlist.parentNode.parentNode.style.backgroundColor="red";
